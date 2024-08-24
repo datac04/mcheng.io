@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="img/png" href="images/siteicon2.png">
+    </head>
+    <body class = "main">
+        <header>
+            <div class = "top"></div>
+            <nav class = "wrapper1">
+                <div class = "a"> Matthew Cheng </div>
+                <div class = "b"><a href="main.html">Home</a></div>
+                <div class = "c"><a href="#About Me">About</a></div>
+                <div class = "d"><a href="projects.html">Projects</a></div>
+                <div class = "e"><a href="photos.html">Photography</a></div>
+                <div class = "f"> 
+                    <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
+                        <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                          <mask class="moon" id="moon-mask">
+                            <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                            <circle cx="24" cy="10" r="6" fill="black" />
+                          </mask>
+                          <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                          <g class="sun-beams" stroke="currentColor">
+                            <line x1="12" y1="1" x2="12" y2="3" />
+                            <line x1="12" y1="21" x2="12" y2="23" />
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                            <line x1="1" y1="12" x2="3" y2="12" />
+                            <line x1="21" y1="12" x2="23" y2="12" />
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                           </g>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+            <svg class="icon" viewBox="0 0 30 30" role="button">
+                <title>Navigation Menu Icon</title>
+                <line x1="8" x2="22" y1="12" y2="12" stroke="black" stroke-linecap="round" />
+                <line x1="8" x2="22" y1="18" y2="18" stroke="black" stroke-linecap="round" />
+                <line x1="8" x2="22" y1="24" y2="24" stroke="black" stroke-linecap="round" />
+            </svg>
+        </header>
+        <div class = "body">
+            <img src="images/pfp.png" alt="Profile Pic" width = "250" height = "250" style="border-radius: 50%; border: 3px solid #2d48b2; margin: -100px 0px 0px 0px;">
+            <div style = "line-height:160%">
+            <p class = "animation1" style = "color: #33272a;"> 
+                Hello! I'm&nbsp;<bodyc>Matthew</bodyc>.
+            </p>
+            </div>
+            <img class = "arrowdown" src = "images/pixelarrow.png">
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
